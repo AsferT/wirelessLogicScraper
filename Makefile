@@ -10,6 +10,9 @@ test: lint phpcs phpunit phpstan
 install:
 	composer install --prefer-dist --no-interaction --no-suggest
 
+run:
+	@php bin/console videx:scraper
+
 ## Run PHP unit tests
 phpunit:
 	@echo "${GREEN}Unit tests${RESET}"

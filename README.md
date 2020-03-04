@@ -9,11 +9,17 @@ Installation
 Run this command:
 
 ```bash
-$ make install
+make install
 ```
 
 Usage
 -----
+
+Run the scraper
+
+```bash
+make run 
+```
 
 Running tests
 -------------
